@@ -1,0 +1,17 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="52930656-ad21-4701-b243-de0dc9f8ba2e" name="oculapps-dev" url="http://192.168.1.92">
+        <fileTransfer host="192.168.1.92" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/oculapps" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="21010c8b-48b0-435d-9d49-a9657d50171b" name="oculapps" url="http://localhost">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
