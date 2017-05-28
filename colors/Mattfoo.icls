@@ -4,7 +4,7 @@
     <property name="created">2017-05-27T11:52:17</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2017.1.3.0.0</property>
-    <property name="modified">2017-05-27T23:27:17</property>
+    <property name="modified">2017-05-27T23:42:54</property>
     <property name="originalScheme">vs2012 copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
@@ -540,6 +540,11 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="GOTO_LABEL">
+      <value>
+        <option name="FOREGROUND" value="dcdcdc" />
+      </value>
+    </option>
     <option name="GROOVY_KEYWORD">
       <value>
         <option name="FOREGROUND" value="cc7832" />
@@ -689,6 +694,11 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="MAGIC_MEMBER_ACCESS">
+      <value>
+        <option name="FOREGROUND" value="cc7832" />
+      </value>
+    </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffef28" />
@@ -793,9 +803,26 @@
         <option name="FOREGROUND" value="cc7832" />
       </value>
     </option>
+    <option name="PHP_BAD_CHARACTER">
+      <value>
+        <option name="EFFECT_COLOR" value="ff0000" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PHP_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="888a8e" />
+      </value>
+    </option>
     <option name="PHP_CONSTANT">
       <value>
         <option name="FOREGROUND" value="dcdcdc" />
+      </value>
+    </option>
+    <option name="PHP_DOC_COMMENT_ID">
+      <value>
+        <option name="FOREGROUND" value="686a6d" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PHP_DOC_TAG">
@@ -816,6 +843,11 @@
         <option name="BACKGROUND" value="5e6465" />
       </value>
     </option>
+    <option name="PHP_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="dcdcdc" />
+      </value>
+    </option>
     <option name="PHP_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="b5a8e1" />
@@ -826,9 +858,35 @@
         <option name="FOREGROUND" value="4ec9b0" />
       </value>
     </option>
+    <option name="PHP_INSTANCE_METHOD">
+      <value>
+        <option name="FOREGROUND" value="dcdcdc" />
+      </value>
+    </option>
+    <option name="PHP_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="569cd6" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PHP_MARKUP_ID">
+      <value>
+        <option name="FOREGROUND" value="727e7e" />
+      </value>
+    </option>
+    <option name="PHP_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="ca2c23" />
+      </value>
+    </option>
     <option name="PHP_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="b5a8e1" />
+        <option name="FOREGROUND" value="7574e0" />
+      </value>
+    </option>
+    <option name="PHP_PREDEFINED SYMBOL">
+      <value>
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PHP_SCRIPTING_BACKGROUND">
@@ -843,6 +901,11 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="PHP_STRING">
+      <value>
+        <option name="FOREGROUND" value="c3a388" />
+      </value>
+    </option>
     <option name="PHP_TAG">
       <value>
         <option name="FOREGROUND" value="d65942" />
@@ -851,7 +914,7 @@
     </option>
     <option name="PHP_VAR">
       <value>
-        <option name="FOREGROUND" value="dcdcdc" />
+        <option name="FOREGROUND" value="7574e0" />
       </value>
     </option>
     <option name="PHP_VAR_VAR">
