@@ -18,7 +18,7 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7.1.3">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php71/7.1.4_16/bin/php-cgi" php_cli="/usr/local/Cellar/php71/7.1.4_16/bin/php" path_separator=":" version="7.1.4" warning="Cannot load Xdebug - it was already loaded&#10;">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php71/7.1.5_17/bin/php-cgi" php_cli="/usr/local/Cellar/php71/7.1.5_17/bin/php" path_separator=":" version="7.1.5" warning="Cannot load Xdebug - it was already loaded&#10;">
           <additional_php_ini>/usr/local/etc/php/7.1/conf.d/ext-amqp.ini, /usr/local/etc/php/7.1/conf.d/ext-apcu.ini, /usr/local/etc/php/7.1/conf.d/ext-bc-apc.ini, /usr/local/etc/php/7.1/conf.d/ext-ds.ini, /usr/local/etc/php/7.1/conf.d/ext-event.ini, /usr/local/etc/php/7.1/conf.d/ext-gmagick.ini, /usr/local/etc/php/7.1/conf.d/ext-gmp.ini, /usr/local/etc/php/7.1/conf.d/ext-igbinary.ini, /usr/local/etc/php/7.1/conf.d/ext-imagick.ini, /usr/local/etc/php/7.1/conf.d/ext-intl.ini, /usr/local/etc/php/7.1/conf.d/ext-mcrypt.ini, /usr/local/etc/php/7.1/conf.d/ext-memcached.ini, /usr/local/etc/php/7.1/conf.d/ext-mongodb.ini, /usr/local/etc/php/7.1/conf.d/ext-opcache.ini, /usr/local/etc/php/7.1/conf.d/ext-redis.ini, /usr/local/etc/php/7.1/conf.d/ext-ssh2.ini, /usr/local/etc/php/7.1/conf.d/ext-stats.ini, /usr/local/etc/php/7.1/conf.d/ext-tidy.ini, /usr/local/etc/php/7.1/conf.d/ext-uuid.ini, /usr/local/etc/php/7.1/conf.d/ext-xdebug.ini, /usr/local/etc/php/7.1/conf.d/ext-yaml.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.1/php.ini</configuration_file>
           <configuration_options>
@@ -44,7 +44,7 @@
             <configuration_option name="apc.enabled" value="1" />
             <configuration_option name="apc.entries_hint" value="4096" />
             <configuration_option name="apc.gc_ttl" value="3600" />
-            <configuration_option name="apc.mmap_file_mask" value="/tmp/apc.FiLd1F" />
+            <configuration_option name="apc.mmap_file_mask" value="/tmp/apc.7GVbv2" />
             <configuration_option name="apc.preload_path" value="" />
             <configuration_option name="apc.serializer" value="php" />
             <configuration_option name="apc.shm_segments" value="1" />
@@ -70,7 +70,7 @@
             <configuration_option name="browscap" value="" />
             <configuration_option name="cli.pager" value="" />
             <configuration_option name="cli.prompt" value="\b \&gt; " />
-            <configuration_option name="curl.cainfo" value="" />
+            <configuration_option name="curl.cainfo" value="/usr/local/ssl/cacert.pem" />
             <configuration_option name="date.default_latitude" value="31.7667" />
             <configuration_option name="date.default_longitude" value="35.2333" />
             <configuration_option name="date.sunrise_zenith" value="90.583333" />
@@ -100,7 +100,7 @@
             <configuration_option name="exif.encode_jis" value="" />
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="/usr/local/Cellar/php71/7.1.4_16/lib/php/extensions/no-debug-non-zts-20160303" />
+            <configuration_option name="extension_dir" value="/usr/local/Cellar/php71/7.1.5_17/lib/php/extensions/no-debug-non-zts-20160303" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -124,7 +124,7 @@
             <configuration_option name="imagick.progress_monitor" value="0" />
             <configuration_option name="imagick.skip_version_check" value="0" />
             <configuration_option name="implicit_flush" value="1" />
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php71/7.1.4_16/lib/php" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php71/7.1.5_17/lib/php" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
             <configuration_option name="intl.default_locale" value="" />
@@ -413,7 +413,7 @@
             <configuration_option name="zlib.output_handler" value="" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.5.1">
+            <debugger_info debugger="xdebug" debugger_version="2.5.4">
               <debug_extensions />
             </debugger_info>
           </debuggers>
