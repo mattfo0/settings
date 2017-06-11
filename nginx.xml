@@ -1,0 +1,14 @@
+<application>
+  <component name="nginxServers">
+    <NginxServerDescriptor>
+      <option name="configPath" value="/usr/local/nginx/conf/nginx.conf" />
+      <option name="errorLogPath" value="/usr/local/nginx/logs/error.log" />
+      <option name="executablePath" value="/usr/local/nginx/conf/nginx.conf" />
+      <option name="globals" value="" />
+      <option name="httpLogPath" value="/usr/local/nginx/logs/access.log" />
+      <option name="id" value="nginx.descriptor.1497222750117" />
+      <option name="name" value="nginx/Unix [unknown version]" />
+      <option name="pidPath" value="/usr/local/nginx/logs/nginx.pid" />
+    </NginxServerDescriptor>
+  </component>
+</application>
