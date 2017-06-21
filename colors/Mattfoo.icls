@@ -4,7 +4,7 @@
     <property name="created">2017-05-27T11:52:17</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2017.1.3.0.0</property>
-    <property name="modified">2017-06-11T14:47:05</property>
+    <property name="modified">2017-06-21T02:26:39</property>
     <property name="originalScheme">vs2012 copy</property>
     <property name="rainbow PHP">false</property>
   </metaInfo>
@@ -200,9 +200,8 @@
     </option>
     <option name="BASH.SHEBANG">
       <value>
-        <option name="FOREGROUND" value="171b1b" />
-        <option name="BACKGROUND" value="a5b09d" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="9fa3a8" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="BASH.STRING">
@@ -221,7 +220,23 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="BASH.VAR_DEF">
+      <value>
+        <option name="FOREGROUND" value="b7a5f3" />
+      </value>
+    </option>
     <option name="BASH.VAR_USE">
+      <value>
+        <option name="FOREGROUND" value="b7a5f3" />
+      </value>
+    </option>
+    <option name="BASH.VAR_USE_BUILTIN">
+      <value>
+        <option name="FOREGROUND" value="b7a5f3" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="BASH.VAR_USE_COMPOSED">
       <value>
         <option name="FOREGROUND" value="b7a5f3" />
       </value>
