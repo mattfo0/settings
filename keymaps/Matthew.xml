@@ -17,7 +17,6 @@
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorCodeBlockStartWithSelection" />
-  <action id="EditorEnter" />
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
   <action id="Forward">
