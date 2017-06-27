@@ -98,8 +98,14 @@
             </list>
           </option>
           <option name="id" value="1495953376945" />
+          <option name="multiLineOutput" value="true" />
         </Profile>
       </list>
+    </option>
+    <option name="tailSettings">
+      <TailSettings>
+        <option name="enabled" value="true" />
+      </TailSettings>
     </option>
   </component>
 </application>
