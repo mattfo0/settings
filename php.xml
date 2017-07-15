@@ -12,31 +12,35 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/usr/local/opt/php71/bin/php" id="3ce058f8-e456-4632-8be0-30ee368b55f3" name="PHP 7.1.3" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/usr/local/opt/php71/bin/php" id="3ce058f8-e456-4632-8be0-30ee368b55f3" name="PHP 7.1" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP 7.1.3">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php71/7.1.5_17/bin/php-cgi" php_cli="/usr/local/Cellar/php71/7.1.5_17/bin/php" path_separator=":" version="7.1.5">
-          <additional_php_ini>/usr/local/etc/php/7.1/conf.d/ext-amqp.ini, /usr/local/etc/php/7.1/conf.d/ext-apcu.ini, /usr/local/etc/php/7.1/conf.d/ext-bc-apc.ini, /usr/local/etc/php/7.1/conf.d/ext-ds.ini, /usr/local/etc/php/7.1/conf.d/ext-event.ini, /usr/local/etc/php/7.1/conf.d/ext-gmagick.ini, /usr/local/etc/php/7.1/conf.d/ext-gmp.ini, /usr/local/etc/php/7.1/conf.d/ext-igbinary.ini, /usr/local/etc/php/7.1/conf.d/ext-imagick.ini, /usr/local/etc/php/7.1/conf.d/ext-intl.ini, /usr/local/etc/php/7.1/conf.d/ext-mcrypt.ini, /usr/local/etc/php/7.1/conf.d/ext-memcached.ini, /usr/local/etc/php/7.1/conf.d/ext-mongodb.ini, /usr/local/etc/php/7.1/conf.d/ext-opcache.ini, /usr/local/etc/php/7.1/conf.d/ext-redis.ini, /usr/local/etc/php/7.1/conf.d/ext-ssh2.ini, /usr/local/etc/php/7.1/conf.d/ext-stats.ini, /usr/local/etc/php/7.1/conf.d/ext-tidy.ini, /usr/local/etc/php/7.1/conf.d/ext-uuid.ini, /usr/local/etc/php/7.1/conf.d/ext-xdebug.ini, /usr/local/etc/php/7.1/conf.d/ext-yaml.ini</additional_php_ini>
-          <configuration_file>/usr/local/etc/php/7.1/php.ini</configuration_file>
+      <interpreter name="PHP 7.1">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php71/7.1.6_18/bin/php-cgi" php_cli="/usr/local/Cellar/php71/7.1.6_18/bin/php" path_separator=":" version="7.1.6">
+          <additional_php_ini>/usr/local/etc/php/7.1/conf.d/ext-amqp.ini, /usr/local/etc/php/7.1/conf.d/ext-apcu.ini, /usr/local/etc/php/7.1/conf.d/ext-bc-apc.ini, /usr/local/etc/php/7.1/conf.d/ext-ds.ini, /usr/local/etc/php/7.1/conf.d/ext-event.ini, /usr/local/etc/php/7.1/conf.d/ext-gmagick.ini, /usr/local/etc/php/7.1/conf.d/ext-gmp.ini, /usr/local/etc/php/7.1/conf.d/ext-igbinary.ini, /usr/local/etc/php/7.1/conf.d/ext-imagick.ini, /usr/local/etc/php/7.1/conf.d/ext-intl.ini, /usr/local/etc/php/7.1/conf.d/ext-mcrypt.ini, /usr/local/etc/php/7.1/conf.d/ext-memcached.ini, /usr/local/etc/php/7.1/conf.d/ext-mongodb.ini, /usr/local/etc/php/7.1/conf.d/ext-opcache.ini, /usr/local/etc/php/7.1/conf.d/ext-pcntl.ini, /usr/local/etc/php/7.1/conf.d/ext-redis.ini, /usr/local/etc/php/7.1/conf.d/ext-ssh2.ini, /usr/local/etc/php/7.1/conf.d/ext-stats.ini, /usr/local/etc/php/7.1/conf.d/ext-tidy.ini, /usr/local/etc/php/7.1/conf.d/ext-uuid.ini, /usr/local/etc/php/7.1/conf.d/ext-xdebug.ini, /usr/local/etc/php/7.1/conf.d/ext-yaml.ini</additional_php_ini>
+          <configuration_file>/usr/local/etc/php/7.1/php-cli.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
             <configuration_option name="allow_url_include" value="" />
             <configuration_option name="amqp.auto_ack" value="0" />
+            <configuration_option name="amqp.cacert" value="" />
+            <configuration_option name="amqp.cert" value="" />
             <configuration_option name="amqp.channel_max" value="256" />
             <configuration_option name="amqp.connect_timeout" value="0" />
             <configuration_option name="amqp.frame_max" value="131072" />
             <configuration_option name="amqp.heartbeat" value="0" />
             <configuration_option name="amqp.host" value="localhost" />
+            <configuration_option name="amqp.key" value="" />
             <configuration_option name="amqp.login" value="guest" />
             <configuration_option name="amqp.password" value="guest" />
             <configuration_option name="amqp.port" value="5672" />
             <configuration_option name="amqp.prefetch_count" value="3" />
             <configuration_option name="amqp.read_timeout" value="0" />
             <configuration_option name="amqp.timeout" value="" />
+            <configuration_option name="amqp.verify" value="1" />
             <configuration_option name="amqp.vhost" value="/" />
             <configuration_option name="amqp.write_timeout" value="0" />
             <configuration_option name="apc.coredump_unmap" value="0" />
@@ -44,7 +48,7 @@
             <configuration_option name="apc.enabled" value="1" />
             <configuration_option name="apc.entries_hint" value="4096" />
             <configuration_option name="apc.gc_ttl" value="3600" />
-            <configuration_option name="apc.mmap_file_mask" value="/tmp/apc.aH0ebL" />
+            <configuration_option name="apc.mmap_file_mask" value="/tmp/apc.yvQYLs" />
             <configuration_option name="apc.preload_path" value="" />
             <configuration_option name="apc.serializer" value="php" />
             <configuration_option name="apc.shm_segments" value="1" />
@@ -100,7 +104,7 @@
             <configuration_option name="exif.encode_jis" value="" />
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="/usr/local/Cellar/php71/7.1.5_17/lib/php/extensions/no-debug-non-zts-20160303" />
+            <configuration_option name="extension_dir" value="/usr/local/Cellar/php71/7.1.6_18/lib/php/extensions/no-debug-non-zts-20160303" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -124,7 +128,7 @@
             <configuration_option name="imagick.progress_monitor" value="0" />
             <configuration_option name="imagick.skip_version_check" value="0" />
             <configuration_option name="implicit_flush" value="1" />
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php71/7.1.5_17/lib/php" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php71/7.1.6_18/lib/php" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
             <configuration_option name="intl.default_locale" value="" />
@@ -335,7 +339,7 @@
             <configuration_option name="user_ini.filename" value=".user.ini" />
             <configuration_option name="variables_order" value="GPCS" />
             <configuration_option name="xdebug.auto_trace" value="0" />
-            <configuration_option name="xdebug.cli_color" value="0" />
+            <configuration_option name="xdebug.cli_color" value="1" />
             <configuration_option name="xdebug.collect_assignments" value="0" />
             <configuration_option name="xdebug.collect_includes" value="1" />
             <configuration_option name="xdebug.collect_params" value="0" />
@@ -359,16 +363,16 @@
             <configuration_option name="xdebug.force_display_errors" value="0" />
             <configuration_option name="xdebug.force_error_reporting" value="0" />
             <configuration_option name="xdebug.halt_level" value="0" />
-            <configuration_option name="xdebug.idekey" value="" />
+            <configuration_option name="xdebug.idekey" value="PHPSTORM" />
             <configuration_option name="xdebug.max_nesting_level" value="256" />
             <configuration_option name="xdebug.max_stack_frames" value="-1" />
             <configuration_option name="xdebug.overload_var_dump" value="2" />
             <configuration_option name="xdebug.profiler_aggregate" value="0" />
             <configuration_option name="xdebug.profiler_append" value="0" />
-            <configuration_option name="xdebug.profiler_enable" value="1" />
-            <configuration_option name="xdebug.profiler_enable_trigger" value="0" />
+            <configuration_option name="xdebug.profiler_enable" value="0" />
+            <configuration_option name="xdebug.profiler_enable_trigger" value="1" />
             <configuration_option name="xdebug.profiler_enable_trigger_value" value="" />
-            <configuration_option name="xdebug.profiler_output_dir" value="/tmp/xdebug" />
+            <configuration_option name="xdebug.profiler_output_dir" value="/var/tmp/" />
             <configuration_option name="xdebug.profiler_output_name" value="cachegrind.out.%p" />
             <configuration_option name="xdebug.remote_addr_header" value="" />
             <configuration_option name="xdebug.remote_autostart" value="0" />
@@ -376,10 +380,10 @@
             <configuration_option name="xdebug.remote_cookie_expire_time" value="3600" />
             <configuration_option name="xdebug.remote_enable" value="0" />
             <configuration_option name="xdebug.remote_handler" value="dbgp" />
-            <configuration_option name="xdebug.remote_host" value="127.0.0.1" />
+            <configuration_option name="xdebug.remote_host" value="localhost" />
             <configuration_option name="xdebug.remote_log" value="" />
             <configuration_option name="xdebug.remote_mode" value="req" />
-            <configuration_option name="xdebug.remote_port" value="9001" />
+            <configuration_option name="xdebug.remote_port" value="9911" />
             <configuration_option name="xdebug.scream" value="0" />
             <configuration_option name="xdebug.show_error_trace" value="0" />
             <configuration_option name="xdebug.show_exception_trace" value="0" />
@@ -413,7 +417,7 @@
             <configuration_option name="zlib.output_handler" value="" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.5.4">
+            <debugger_info debugger="xdebug" debugger_version="2.5.5">
               <debug_extensions />
             </debugger_info>
           </debuggers>
