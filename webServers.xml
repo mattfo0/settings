@@ -12,6 +12,9 @@
       <webServer id="21010c8b-48b0-435d-9d49-a9657d50171b" name="oculapps" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="e4232e6c-7520-4990-9dd5-81626463edda" name="mattfoo" url="http://mattfoo.local">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
