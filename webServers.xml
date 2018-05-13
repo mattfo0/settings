@@ -15,6 +15,9 @@
       <webServer id="e4232e6c-7520-4990-9dd5-81626463edda" name="mattfoo" url="http://mattfoo.local">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="a216e182-7a45-4c7b-b02c-5b5a984c088c" name="netlify.local" url="http://netlify.local">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
