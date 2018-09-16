@@ -24,6 +24,9 @@
       <webServer id="679c8f54-dcbe-4aa2-ab2d-a08dca1ce2ab" name="127.0.0.1:8080" url="http://127.0.0.1:8080">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="1c1d5a1e-86b4-4d05-b743-5cc678884356" name="localhost:8000" url="http://localhost:8000">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
