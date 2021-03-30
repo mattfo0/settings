@@ -1,0 +1,9 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="192.168.1.92" id="f2b7321c-89d2-4305-8364-67361b1cf4f2" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="oculapps-dev" nameFormat="CUSTOM">
+        <option name="customName" value="oculapps-dev" />
+      </sshConfig>
+    </configs>
+  </component>
+</application>
