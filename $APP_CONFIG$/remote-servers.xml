@@ -1,0 +1,18 @@
+<application>
+  <component name="RemoteServers">
+    <remote-server name="Docker" type="docker">
+      <configuration>
+        <option name="apiUrl" value="unix:///var/run/docker.sock" />
+        <option name="certificatesPath" />
+        <option name="pathMappings">
+          <list>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="/websites/coursehero/src" />
+              <option name="virtualMachinePath" value="/var/www/html/coursehero/src" />
+            </DockerPathMappingImpl>
+          </list>
+        </option>
+      </configuration>
+    </remote-server>
+  </component>
+</application>

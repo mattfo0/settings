@@ -1,0 +1,247 @@
+<templateSet group="Hodor">
+  <template name="&lt;hodorPrimaryButton&gt;" value="&lt;a href=&quot;$VAR0$&quot; class=&quot;primaryButton&quot;&gt;$END$&lt;/a&gt;" description="Primary Action Button" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorDefaultPanel&gt;" value="&lt;div class=&quot;panel&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="Default Panel Styling" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorInputEmail&gt;" value="&lt;label class=&quot;formField&quot; data-title=&quot;Email Address&quot;&gt;&#10;    &lt;input class=&quot;formInput&quot; type=&quot;email&quot; placeholder=&quot;e.g., batman@coursehero.com&quot;/&gt;&#10;&lt;/label&gt;" description="Email input" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorInputPassword&gt;" value="&lt;label class=&quot;formField&quot; data-title=&quot;Password&quot;&gt;&#10;    &lt;input class=&quot;formInput&quot; type=&quot;password&quot; placeholder=&quot;Type your Password&quot;/&gt;&#10;&lt;/label&gt;" description="Password input" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorSelectDropdown&gt;" value="&lt;label class=&quot;formField&quot; data-title=&quot;$VAR0$&quot;&gt;&#10;    &lt;select class=&quot;formInput&quot;&gt;&#10;        &lt;option value=&quot;$VAR1$&quot;&gt;$VAR2$&lt;/option&gt;&#10;        &lt;option value=&quot;$VAR3$&quot;&gt;$VAR4$&lt;/option&gt;&#10;        &lt;option value=&quot;$VAR5$&quot;&gt;$END$&lt;/option&gt;&#10;    &lt;/select&gt;&#10;&lt;/label&gt;" description="Select Dropdown" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR5" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorRadioButton&gt;" value="&lt;div class=&quot;formField&quot; data-title=&quot;$VAR0$&quot;&gt;&#10;    &lt;div class=&quot;grid_noGutter&quot;&gt;&#10;        &lt;div class=&quot;column&quot;&gt;&#10;            &lt;label class=&quot;radioBox&quot;&gt;&#10;                &lt;input type=&quot;radio&quot; name=&quot;$VAR1$&quot;&gt;&#10;                &lt;span&gt;$VAR2$&lt;/span&gt;&#10;            &lt;/label&gt;&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;column&quot;&gt;&#10;            &lt;label class=&quot;radioBox&quot;&gt;&#10;                &lt;input type=&quot;radio&quot; name=&quot;$VAR3$&quot;&gt;&#10;                &lt;span&gt;$END$&lt;/span&gt;&#10;            &lt;/label&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Radio button" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorInputText&gt;" value="&lt;label class=&quot;formField&quot; data-title=&quot;$VAR0$&quot;&gt;&#10;    &lt;input class=&quot;formInput&quot; type=&quot;text&quot; placeholder=&quot;$END$&quot;/&gt;&#10;&lt;/label&gt;" description="Text input" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorContainer&gt;" value="&lt;div class=&quot;container&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="Page Container" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorToggleSwitch&gt;" value="&lt;div class=&quot;formField&quot; data-title=&quot;$VAR0$&quot;&gt;&#10;    &lt;label class=&quot;toggleSwitch&quot;&gt;&#10;        &lt;input type=&quot;checkbox&quot; name=&quot;checkbox&quot;&gt;&#10;        &lt;span&gt;$END$&lt;/span&gt;&#10;    &lt;/label&gt;&#10;&lt;/div&gt;" description="Toggle Switch" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorSecondaryButtonLevel1&gt;" value="&lt;a href=&quot;$VAR0$&quot; class=&quot;secondaryButton1&quot;&gt;$END$&lt;/a&gt;" description="Secondary Action Button Level 1" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorSecondaryButtonLevel2&gt;" value="&lt;a href=&quot;$VAR0$&quot; class=&quot;secondaryButton2&quot;&gt;$END$&lt;/a&gt;" description="Secondary Action Button Level 2" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorTertiaryButtonLevel2&gt;" value="&lt;a href=&quot;$VAR0$&quot; class=&quot;tertiaryButton2&quot;&gt;$END$&lt;/a&gt;" description="Tertiary Action Button Level 2" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;HodorGhostButtonLevel1&gt;" value="&lt;a href=&quot;$VAR1$&quot; class=&quot;ghostButton1&quot;&gt;$END$&lt;/a&gt;" description="Ghost Action Button Level 1" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;HodorCheckBox&gt;" value="&lt;div class=&quot;formField&quot; data-title=&quot;$VAR0$&quot;&gt;&#10;    &lt;div class=&quot;grid5_noBottom phone2&quot;&gt;&#10;        &lt;div class=&quot;column&quot;&gt;&#10;            &lt;label class=&quot;checkBox&quot;&gt;&#10;                &lt;input type=&quot;checkbox&quot; name=&quot;$VAR1$&quot;&gt;&#10;                &lt;span&gt;$VAR2$&lt;/span&gt;&#10;            &lt;/label&gt;&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;column&quot;&gt;&#10;            &lt;label class=&quot;checkBox&quot;&gt;&#10;                &lt;input type=&quot;checkbox&quot; name=&quot;$VAR3$&quot;&gt;&#10;                &lt;span&gt;$END$&lt;/span&gt;&#10;            &lt;/label&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Checkbox input" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorTable&gt;" value="&lt;div class=&quot;tableWrapper&quot;&gt;&#10;    &lt;table&gt;&#10;    &#9;&lt;tr&gt;&#10;    &#9;&#9;&lt;th&gt;$VAR0$&lt;/th&gt;&#10;    &#9;&#9;&lt;th&gt;$VAR1$&lt;/th&gt;&#10;    &#9;&lt;/tr&gt;&#10;    &#9;&lt;tr&gt;&#10;    &#9;&#9;&lt;td&gt;$VAR2$&lt;/td&gt;&#10;    &#9;&#9;&lt;td&gt;$END$&lt;/td&gt;&#10;    &#9;&lt;/tr&gt;&#10;    &lt;/table&gt;&#10;&lt;/div&gt;" description="Table" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorBadge&gt;" value="&lt;span class=&quot;badge&quot;&gt;$END$&lt;/span&gt;" description="Badge" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorStatusLabel&gt;" value="&lt;span class=&quot;label&quot;&gt;$END$&lt;/span&gt;" description="Status Label" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorTags&gt;" value="&lt;a href=&quot;$VAR0$&quot; class=&quot;tags&quot;&gt;$END$&lt;/a&gt;" description="Action Tags" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorInlineTag&gt;" value="&lt;span class=&quot;tags&quot;&gt;$END$ &lt;a href=&quot;&quot;&gt;&lt;i class=&quot;ch-remove&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;" description="Inline Tags" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorProgressBarLinear&gt;" value="&lt;div class=&quot;progressBar&quot;&gt;&#10;    &lt;span style=&quot;width: $VAR0$&quot; data-tooltip=&quot;$END$&quot;&gt;&lt;/span&gt;&#10;&lt;/div&gt;" description="Linear Progress bar" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorWizardProgress1&gt;" value="&lt;div class=&quot;wizardProgress1&quot;&gt;&#10;    &lt;a href=&quot;#&quot; data-step=&quot;1&quot; class=&quot;isProgressed&quot;&gt;$VAR0$&lt;/a&gt;&#10;    &lt;a href=&quot;#&quot; data-step=&quot;2&quot; class=&quot;isProgressed&quot;&gt;$VAR1$&lt;/a&gt;&#10;    &lt;a data-step=&quot;3&quot; class=&quot;isCurrent&quot;&gt;$VAR3$&lt;/a&gt;&#10;    &lt;a data-step=&quot;4&quot;&gt;$END$&lt;/a&gt;&#10;&lt;/div&gt;" description="Wizard Progress Bar Level 1" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorWizardProgress2&gt;" value="&lt;div class=&quot;wizardProgress2&quot;&gt;&#10;    &lt;a href=&quot;#&quot; data-step=&quot;1&quot; class=&quot;isProgressed&quot;&gt;&lt;span&gt;$VAR0$&lt;/span&gt;&lt;/a&gt;&#10;    &lt;a href=&quot;#&quot; data-step=&quot;2&quot; class=&quot;isProgressed&quot;&gt;&lt;span&gt;$VAR1$&lt;/span&gt;&lt;/a&gt;&#10;    &lt;a data-step=&quot;3&quot; class=&quot;isCurrent&quot;&gt;&lt;span&gt;$VAR2$&lt;/span&gt;&lt;/a&gt;&#10;    &lt;a data-step=&quot;4&quot;&gt;&lt;span&gt;$END$&lt;/span&gt;&lt;/a&gt;&#10;&lt;/div&gt;" description="Wizard Progress Bar Level 2" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorInlinePrompt&gt;" value="&lt;div class=&quot;inlinePrompt&quot; data-icon=&quot;&quot;&gt;&#10;&#9;&lt;h6&gt;$VAR0$&lt;/h6&gt;&#10;&#9;&lt;p&gt;$END$&lt;/p&gt;&#10;&#9;&lt;a href=&quot;#&quot; class=&quot;closeAction&quot;&gt;&lt;i class=&quot;ch-remove&quot;&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/div&gt;" description="Inline Prompt" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorFloaterPrompt&gt;" value="&lt;div class=&quot;floaterPrompt slideInUp&quot; data-icon=&quot;&quot;&gt;&#10;&#9;$END$&#10;&#9;&lt;a href=&quot;#&quot; class=&quot;closeAction&quot;&gt;&lt;i class=&quot;ch-remove&quot;&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/div&gt;" description="Floater Prompt" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorDropdownButton&gt;" value="&lt;div class=&quot;buttonDropdown&quot;&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;secondaryButton1&quot; data-right-icon=&quot;&quot;&gt;$VAR0$&lt;/a&gt;&#10;    &lt;div class=&quot;buttonDropdownMenu&quot;&gt;&#10;        &lt;a href=&quot;#&quot;&gt;$VAR1$&lt;/a&gt;&#10;        &lt;a href=&quot;#&quot;&gt;$VAR2$&lt;/a&gt;&#10;        &lt;span&gt;$VAR3$&lt;/span&gt;&#10;        &lt;a href=&quot;#&quot;&gt;$VAR4$&lt;/a&gt;&#10;        &lt;a href=&quot;#&quot;&gt;$END$&lt;/a&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Dropdown Button" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorGroupButton&gt;" value="&lt;div class=&quot;buttonGroup&quot;&gt;&#10;&#9;&lt;a href=&quot;$VAR0$&quot; class=&quot;secondaryButton1 isHighlighted&quot;&gt;$VAR1$&lt;/a&gt;&#10;&#9;&lt;a href=&quot;$VAR2$&quot; class=&quot;secondaryButton1&quot;&gt;$VAR3$&lt;/a&gt;&#10;&#9;&lt;a href=&quot;$VAR4$&quot; class=&quot;secondaryButton1&quot;&gt;$END$&lt;/a&gt;&#10;&lt;/div&gt;" description="Button groups" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorTabLevel1&gt;" value="&lt;ul class=&quot;tabNav isLevel1&quot;&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;$VAR0$&quot; class=&quot;isSelected&quot;&gt;$VAR1$&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;$VAR2$&quot;&gt;$VAR3$&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;$VAR4$&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Tabs Level 1" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorTabLevel2&gt;" value="&lt;ul class=&quot;tabNav isLevel2&quot;&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;$VAR0$&quot; class=&quot;isSelected&quot;&gt;$VAR1$&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;$VAR2$&quot;&gt;$VAR3$&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;$VAR4$&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Tabs Level 2" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorTabLevel3&gt;" value="&lt;ul class=&quot;tabNav isLevel3&quot;&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;$VAR0$&quot; class=&quot;isSelected&quot;&gt;$VAR1$&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;$VAR2$&quot;&gt;$VAR3$&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;$VAR4$&quot;&gt;$VAR5$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;section class=&quot;tabContent isLevel3&quot;&gt;&#10;&#9;$END$&#10;&lt;/section&gt;" description="Tabs Level 3" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR5" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorAutoGrid&gt;" value="&lt;div class=&quot;grid&quot;&gt;&#10;&#9;&lt;div class=&quot;column&quot;&gt;&#10;&#9;&#10;&#9;&lt;/div&gt;&#10;&#9;&lt;div class=&quot;column&quot;&gt;&#10;&#9;&#10;&#9;&lt;/div&gt;&#10;&#9;&lt;div class=&quot;column&quot;&gt;&#10;&#9;&#10;&#9;&lt;/div&gt;&#10;&lt;/div&gt;" description="Auto Grid" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorDefaultCity&gt;" value="{#&#10;1. Hodor page should never include any legacy framework's code.&#10;2. Hodor HTML should never include any CSS filetypes. It should only include SCSS filetypes that are inside the Symfony Bundle folder.&#10;3. SCSS and JS files used on Hodor page should be created inside the respective Symfony Bundle folder. For e.g.,&#10;    CourseHeroDocumentBundle/Resources/assets/sass/…&#10;    CourseHeroDocumentBundle/Resources/assets/js/…&#10;4. Images or Graphics should still be created inside Control/assets/img folder&#10;5. Refer www.coursehero.com/design/hodor to see what’s available on Hodor&#10;6. Hodor must use only React UI libraries for advanced interaction. Here are list of third party plugins to use on top of this framework &#10;    https://docs.google.com/a/coursehero.com/spreadsheets/d/1NVY8LE1tOtqIGgjendpyIDwwweF5VMCGEsVlj9q0sPw/edit?usp=sharing&#10;    NOTE: Some of the plugins may already be included inside CourseHeroBrandBundle&#10;#}&#10;&#10;{% extends 'CourseHeroLayoutBundle::master.html.twig' %}&#10;{% set body_style = 'hodor' %}&#10;&#10;{% block title %} … {% endblock %}&#10;&#10;{% block description %} … {% endblock %}&#10;&#10;{% block content %}&#10;&lt;!-- Your HTML content between header and footer --&gt;&#10;&lt;div class=&quot;container&quot;&gt;&#10;    &#10;&lt;/div&gt;&#10;{% endblock %}&#10;&#10;{% block stylesheets %}&#10;    {% stylesheets&#10;      &quot;@CourseHeroBrandBundle/Resources/assets/sass/filename.scss&quot;&#10;    %}&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;{{ asset_url }}&quot;&gt;&#10;    {% endstylesheets %}&#10;{% endblock %}&#10;&#10;{% block javascripts %}&#10;    {% javascripts&#10;      &quot;@CourseHeroBrandBundle/Resources/assets/js/filename.js&quot;&#10;    %}&#10;    &lt;script type=&quot;text/javascript&quot; src=&quot;{{ asset_url }}&quot;&gt;&lt;/script&gt;&#10;    {% endjavascripts %}&#10;{% endblock %}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>

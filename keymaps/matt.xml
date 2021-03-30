@@ -1,0 +1,16 @@
+<keymap version="1" name="matt" parent="Mac OS X">
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+  </action>
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="meta w" />
+  </action>
+  <action id="EditorCodeBlockEnd" />
+  <action id="EditorCodeBlockStart" />
+  <action id="EditorSelectWord" />
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+  </action>
+</keymap>
