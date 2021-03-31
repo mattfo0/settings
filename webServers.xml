@@ -2,30 +2,29 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="52930656-ad21-4701-b243-de0dc9f8ba2e" name="oculapps-dev" url="http://192.168.1.92">
-        <fileTransfer host="192.168.1.92" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/oculapps" accessType="SFTP" keyPair="true">
+        <fileTransfer rootFolder="/oculapps" accessType="SFTP" sshConfigId="f2b7321c-89d2-4305-8364-67361b1cf4f2" sshConfig="oculapps-dev">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="21010c8b-48b0-435d-9d49-a9657d50171b" name="oculapps" url="http://localhost">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="e4232e6c-7520-4990-9dd5-81626463edda" name="mattfoo" url="http://mattfoo.local">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="a216e182-7a45-4c7b-b02c-5b5a984c088c" name="netlify.local" url="http://netlify.local">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="83e59323-34ea-40b3-8551-8d2c41abcf75" name="tv-series-app" url="http://localhost:3000">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="679c8f54-dcbe-4aa2-ab2d-a08dca1ce2ab" name="127.0.0.1:8080" url="http://127.0.0.1:8080">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="1c1d5a1e-86b4-4d05-b743-5cc678884356" name="localhost:8000" url="http://localhost:8000">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
     </option>
   </component>
