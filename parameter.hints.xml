@@ -3,11 +3,18 @@
     <blacklists>
       <blacklist language="TypeScript" />
       <blacklist language="XML" />
-      <blacklist language="JavaScript" />
       <blacklist language="PHP">
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />
     </blacklists>
+    <disabledLanguages>
+      <language id="TypeScript" />
+      <language id="Angular2Html" />
+      <language id="JavaScript" />
+      <language id="Vue" />
+      <language id="PHP" />
+      <language id="SQL" />
+    </disabledLanguages>
   </component>
 </application>
