@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="52930656-ad21-4701-b243-de0dc9f8ba2e" name="oculapps-dev" url="http://192.168.1.92">
-        <fileTransfer rootFolder="/oculapps" accessType="SFTP" sshConfigId="f2b7321c-89d2-4305-8364-67361b1cf4f2" sshConfig="oculapps-dev">
+        <fileTransfer rootFolder="/oculapps" accessType="SFTP" sshConfigId="3b1a3ba7-6e79-4419-93f9-1efdcede9085" sshConfig="oculapps-dev">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
