@@ -9,7 +9,6 @@
     <entry key="ide.tooltip.initialDelay" value="421" />
     <entry key="documentation.show.toolbar" value="true" />
     <entry key="ide.editor.tabs.open.at.the.end" value="true" />
-    <entry key="vcs.annotations.preload" value="true" />
     <entry key="debugger.watches.in.variables" value="false" />
   </component>
   <component name="StatusBar">
