@@ -19,11 +19,11 @@
     <mask>*.php,*.twig</mask>
     <mask>*.php,*.inc,*.twig,*tpl</mask>
     <mask>*.yml</mask>
-    <mask>*.twig</mask>
     <mask>*.js</mask>
     <mask>*.php</mask>
     <mask>*.php,*.inc,*.js</mask>
     <mask>*.php,*.inc</mask>
     <mask>*.php,*.inc,*.conf</mask>
+    <mask>*.twig</mask>
   </component>
 </application>
