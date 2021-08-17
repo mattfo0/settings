@@ -119,6 +119,16 @@
           <option name="columnSortOrder" value="" />
           <option name="maxSeparatorsPerLine" value="" />
         </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1629242918520" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="=" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
       </list>
     </option>
   </component>
