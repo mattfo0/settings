@@ -5,7 +5,7 @@
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.*" />
+    <option name="FILE_MASK" value="*.php,*.inc" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -23,11 +23,11 @@
     <mask>*.php,*.inc,*.twig,*tpl</mask>
     <mask>*.yml</mask>
     <mask>*.php,*.inc,*.js</mask>
-    <mask>*.php,*.inc</mask>
     <mask>*.php,*.inc,*.conf</mask>
     <mask>*.js</mask>
     <mask>*.php</mask>
     <mask>*.twig</mask>
     <mask>*.*</mask>
+    <mask>*.php,*.inc</mask>
   </component>
 </application>
