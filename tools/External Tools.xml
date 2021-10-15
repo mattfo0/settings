@@ -6,4 +6,11 @@
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/bin" />
     </exec>
   </tool>
+  <tool name="compose" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="hero" />
+      <option name="PARAMETERS" value="mono build -s" />
+      <option name="WORKING_DIRECTORY" value="$Projectpath$" />
+    </exec>
+  </tool>
 </toolSet>
