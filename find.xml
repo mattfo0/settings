@@ -28,5 +28,6 @@
     <mask>*.*</mask>
     <mask>*.twig</mask>
     <mask>*.php,*.inc</mask>
+    <mask>*.php,*.inc,*.twig</mask>
   </component>
 </application>
