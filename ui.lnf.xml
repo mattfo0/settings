@@ -6,18 +6,21 @@
     <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
     <option name="CLOSE_NON_MODIFIED_FILES_FIRST" value="true" />
     <option name="COLOR_BLINDNESS" value="deuteranopia" />
+    <option name="CONSOLE_COMMAND_HISTORY_LIMIT" value="500" />
     <option name="DND_WITH_PRESSED_ALT_ONLY" value="true" />
     <option name="EDITOR_TAB_LIMIT" value="15" />
     <option name="HIDE_KNOWN_EXTENSION_IN_TABS" value="true" />
     <option name="HIDE_TABS_IF_NEED" value="false" />
-    <option name="IDE_AA_TYPE" value="Greyscale" />
+    <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="25" />
     <option name="MAX_LOOKUP_WIDTH2" value="823" />
+    <option name="OPEN_TABS_AT_THE_END" value="true" />
     <option name="PRESENTATION_MODE_FONT_SIZE" value="20" />
-    <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
     <option name="SHOW_CLOSE_BUTTON" value="false" />
     <option name="SHOW_DIRECTORY_FOR_NON_UNIQUE_FILENAMES" value="false" />
     <option name="SHOW_INPLACE_COMMENTS" value="true" />
     <option name="SHOW_MAIN_TOOLBAR" value="true" />
+    <option name="SHOW_PINNED_TABS_IN_A_SEPARATE_ROW" value="true" />
+    <option name="SORT_TABS_ALPHABETICALLY" value="true" />
   </component>
 </application>

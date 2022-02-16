@@ -4,7 +4,7 @@
       <MessDetectorConfiguration tool_path="/usr/local/bin/phpmd" />
     </phpmd_settings>
   </component>
-  <component name="PhpAutoImport" global_class_behavior="PREFER_IMPORT" />
+  <component name="PhpAutoImport" auto_import_file_scope="true" global_class_behavior="PREFER_IMPORT" />
   <component name="PhpCodeSniffer">
     <phpcs_settings>
       <PhpCSConfiguration tool_path="/usr/local/bin/phpcs" />
@@ -95,6 +95,8 @@
     </phpInfoCache>
   </component>
   <component name="PhpSmartKeysConfiguration">
+    <option name="replaceUnnecessaryDoubleQuotes" value="true" />
     <option name="selectVariableNameWithoutDollar" value="true" />
+    <option name="smartFunctionParametersCompletion" value="true" />
   </component>
 </application>
