@@ -95,7 +95,6 @@
     </phpInfoCache>
   </component>
   <component name="PhpSmartKeysConfiguration">
-    <option name="replaceUnnecessaryDoubleQuotes" value="true" />
     <option name="selectVariableNameWithoutDollar" value="true" />
     <option name="smartFunctionParametersCompletion" value="true" />
   </component>
