@@ -23,12 +23,12 @@
     <mask>*.yml</mask>
     <mask>*.php,*.inc,*.js</mask>
     <mask>*.php,*.inc,*.conf</mask>
-    <mask>*.js</mask>
     <mask>*.php</mask>
     <mask>*.*</mask>
     <mask>*.php,*.inc</mask>
     <mask>*.twig</mask>
     <mask>*.php,*.inc,*.twig</mask>
     <mask>*.php,*.inc,*.twig,*.yml,*.yaml</mask>
+    <mask>*.js</mask>
   </component>
 </application>
