@@ -12,7 +12,7 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="96480039-878f-4144-a4cc-6bbeccc60611" name="PHP 7.4" home="/usr/local/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="96480039-878f-4144-a4cc-6bbeccc60611" name="PHP 7.4" home="/usr/local/bin/php" debugger_id="php.debugger.XDebug" debugger_extension="/usr/local/lib/php/pecl/20190902/xebug.so" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
@@ -92,6 +92,7 @@
             <extension name="sysvshm" />
             <extension name="tidy" />
             <extension name="tokenizer" />
+            <extension name="vips" />
             <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
