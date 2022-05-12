@@ -12,7 +12,11 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="96480039-878f-4144-a4cc-6bbeccc60611" name="PHP 7.4" home="/usr/local/bin/php" debugger_id="php.debugger.XDebug" debugger_extension="/usr/local/lib/php/pecl/20190902/xebug.so" />
+      <interpreter id="96480039-878f-4144-a4cc-6bbeccc60611" name="PHP 7.4" home="/usr/local/bin/php" debugger_id="php.debugger.XDebug" debugger_extension="/usr/local/lib/php/pecl/20190902/xebug.so">
+        <configuration_options>
+          <configuration_option name="include_path" value="$USER_HOME$/coursehero/src/" />
+        </configuration_options>
+      </interpreter>
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
@@ -22,7 +26,7 @@
           <additional_php_ini>/usr/local/etc/php/7.4/conf.d/ext-opcache.ini, /usr/local/etc/php/7.4/conf.d/xdebug.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.4/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php@7.4/7.4.23/share/php@7.4/pear:/Users/mkesack/coursehero/src" />
+            <configuration_option name="include_path" value="$USER_HOME$/coursehero/src/" />
           </configuration_options>
           <debuggers>
             <debugger_info debugger="xdebug" debugger_version="3.0.4">
