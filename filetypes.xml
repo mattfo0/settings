@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping ext="old" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
       <mapping ext="golden" type="PLAIN_TEXT" />
       <mapping pattern="02-notify-need-dev-merge" type="Shell Script" />
