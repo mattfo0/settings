@@ -8,6 +8,7 @@
   <component name="PhpCodeSniffer">
     <phpcs_settings>
       <PhpCSConfiguration tool_path="/usr/local/bin/phpcs" />
+      <phpcs_by_interpreter interpreter_id="96480039-878f-4144-a4cc-6bbeccc60611" beautifier_path="$USER_HOME$/coursehero/src/Symfony/vendor/bin/phpcbf" tool_path="/Users/mkesack/coursehero/src/Symfony/vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
